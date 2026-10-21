@@ -1,0 +1,5 @@
+# PDF engine. PyMuPDF 2.0 has a redaction layout regression (text after a removed
+# word shifts left); stay on 1.26-1.28 until it is fixed. The tool self-checks at runtime.
+pymupdf>=1.26.4,<2.0
+pytesseract>=0.3.10
+Pillow>=10.1

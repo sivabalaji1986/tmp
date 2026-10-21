@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.report.json
+*.report.txt
+sanitized*.pdf
+*.REVIEW_REQUIRED.pdf
+.pii-redactor-*.partial.pdf

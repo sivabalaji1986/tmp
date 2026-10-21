@@ -1,0 +1,18 @@
+{
+  "input_file": "original.pdf",
+  "output_file": "sanitized.pdf",
+  "case_sensitive": false,
+  "whole_word": false,
+  "replacements": [
+    {"source": "Jilaba", "replacement": "SiBa"},
+    {"source": "98765432", "replacement": "12345678"},
+    {"source": "jilaba@email.com", "replacement": "siba@example.com"}
+  ],
+  "options": {
+    "ocr_mode": "auto",
+    "ocr_lang": "eng",
+    "ocr_rotations": "auto",
+    "verify_ocr": "all",
+    "strict_layout": false
+  }
+}
